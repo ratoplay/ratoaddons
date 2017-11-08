@@ -3,11 +3,6 @@
        name="RATO PLAY"
        version="1.2"
        provider-name="RATO">
-  <extension point="xbmc.addon.video" name="Rato Play">
-		<info compressed="false">http://raw.github.com/ratoplay/ratoaddons/addons.xml</info>
-		<checksum>http://raw.github.com/ratoplay/ratoaddons/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/ratoplay/ratoaddons/repo/</datadir>
-	</extension>
     <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
